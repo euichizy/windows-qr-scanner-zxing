@@ -1,11 +1,5 @@
 /*
  * 极简 Win32 二维码识别器 - ZXing-CPP 版本
- * (已修复 Stride 导致的闪退问题)
- *
- * 修复版 (by Gemini):
- * 1. 修复中文编码问题 (GUI转为Unicode, 增加WideToUTF8转换)
- * 2. 启用 Windows 视觉样式 (Common Controls 6.0)
- * 3. 修复GUI窗口定位 (居中) 和拖动问题 (修复WndProc)
  */
 
 #ifdef UNICODE
@@ -2127,3 +2121,4 @@ void ShowGenerateHotkeySettings(HWND hwnd) {
         }
     }
 }
+
